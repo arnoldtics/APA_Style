@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+#Author: Arnoldo Fernando Chue Sánchez
+#Contact: arnoldwork20@gmail.com
+#License: GNU/GPL
+
 def author():
     last_name = (input("Last name: ").lower()).title().strip()
     first_name = (input("First name: ").upper()).strip().split()

@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+#Author: Arnoldo Fernando Chue Sánchez
+#Contact: arnoldwork20@gmail.com
+#License: GNU/GPL
+
 def autor():
     apellido = (input("Apellidos: ").lower()).title().strip()
     nombre = (input("Nombre: ").upper()).strip().split()
