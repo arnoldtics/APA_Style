@@ -13,7 +13,7 @@ def author():
             initials += word[0]+". "
         return f"{last_name}, {initials[:-2]}.,"
     else:
-        return "{last_name}, {first_name[0][0]}.,"
+        return f"{last_name}, {first_name[0][0]}.,"
 
 def book():
     authors = " ".join(sorted([author() for i in range(int(input("How many authors does the book have? ")))]))
