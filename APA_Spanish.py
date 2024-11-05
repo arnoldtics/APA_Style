@@ -11,7 +11,7 @@ def autor():
         iniciales = ""
         for palabra in nombre: iniciales += palabra[0]+". "
         return f"{apellido}, {iniciales[:-2]}.,"
-    else: return "{apellido}, {nombre[0][0]}.,"
+    else: return f"{apellido}, {nombre[0][0]}.,"
 
 def libro():
     autores = " ".join(sorted([autor() for i in range(int(input("¿Cuántos autores tiene el libro? ")))]))
